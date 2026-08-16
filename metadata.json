@@ -1,0 +1,6 @@
+{
+  "name": "Meditation",
+  "description": "A tranquil Tibetan meditation sanctuary featuring rotating mindfulness quotes, subtle animations, and a responsive transparent YouTube music player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
