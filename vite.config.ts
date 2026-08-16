@@ -5,9 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Meditation-/',
     plugins: [react(), tailwindcss()],
     resolve: {
-      base: '/Meditation-/',
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
