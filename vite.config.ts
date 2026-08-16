@@ -7,6 +7,7 @@ export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
+      base: '/Meditation-/',
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
